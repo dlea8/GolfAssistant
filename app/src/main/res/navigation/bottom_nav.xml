@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ben_j.golfassistant.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/playGolf3"
+        android:name="com.example.ben_j.golfassistant.PlayGolf"
+        android:label="activity_play_golf"
+        tools:layout="@layout/activity_play_golf" />
+    <activity
+        android:id="@+id/handicapCalculator3"
+        android:name="com.example.ben_j.golfassistant.HandicapCalculator"
+        android:label="activity_handicap_calculator"
+        tools:layout="@layout/activity_handicap_calculator" />
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.ben_j.golfassistant.playFragment"
+        android:label="fragment_play"
+        tools:layout="@layout/fragment_play" />
+    <fragment
+        android:id="@+id/calculateFragment"
+        android:name="com.example.ben_j.golfassistant.calculateFragment"
+        android:label="fragment_calculate"
+        tools:layout="@layout/fragment_calculate" />
+</navigation>

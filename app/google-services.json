@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "648667573717",
+    "firebase_url": "https://golf-assistant-a4849.firebaseio.com",
+    "project_id": "golf-assistant-a4849",
+    "storage_bucket": "golf-assistant-a4849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648667573717:android:9ed901c1e7055f234aa15c",
+        "android_client_info": {
+          "package_name": "com.example.ben_j.golfassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648667573717-rem0ad49dh7lrspref0rpsi8b8ic0u0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFdDh7mJaxm_JY8OgqWgDgRLAQxEWl74I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648667573717-rem0ad49dh7lrspref0rpsi8b8ic0u0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
